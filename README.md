@@ -21,7 +21,7 @@ We set up the contract using the `setAccounts` function, specifying authorized E
 - Dummy Account 1: `0x0c0669Cd5e60a6F4b8ce437E4a4A007093D368Cb`
 - Dummy Account 2: `0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0`
 
-![Initialized Contract](Execution_Results/Initialized.png)
+![Initialized Contract](Joint_Savings_Account/Execution_Results/Initialized.png)
 
 ## Transactions
 
@@ -33,9 +33,9 @@ Testing the contract involved depositing 50 ether and conducting withdrawals:
 
 After each transaction, we verified the contract balance and the details of the withdrawals.
 
-![Transaction 1](Execution_Results/Transaction1.png)
-![Transaction 2](Execution_Results/Transaction2.png)
-![Transaction 3](Execution_Results/Transaction3.png)
+![Transaction 1](Joint_Savings_Account/Execution_Results/Transaction1.png)
+![Transaction 2](Joint_Savings_Account/Execution_Results/Transaction2.png)
+![Transaction 3](Joint_Savings_Account/Execution_Results/Transaction3.png)
 
 ## Error Handling
 
@@ -43,11 +43,11 @@ Our smart contract includes robust error handling:
 
 - **Insufficient Funds:** Ensuring balance sufficiency for withdrawals.
 
-  ![Insufficient Funds Error](Execution_Results/Error1.png)
+  ![Insufficient Funds Error](Joint_Savings_Account/Execution_Results/Error1.png)
 
 - **Account Ownership Check:** Verifying the recipient's ownership of the account.
 
-  ![Account Ownership Error](Execution_Results/Error2.png)
+  ![Account Ownership Error](Joint_Savings_Account/Execution_Results/Error2.png)
 
 ## Conclusion
 
